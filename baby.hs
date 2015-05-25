@@ -1,8 +1,8 @@
-doubleMe x = x + x
+doubleMe x = x * 2
 -- doubleMe 9
 -- 18
 
-doubleUs x y = doubleMe x + doubleMe y
+doubleUs x y = doubleMe (x + y)
 -- doubleUs 3 4
 -- 14
 
