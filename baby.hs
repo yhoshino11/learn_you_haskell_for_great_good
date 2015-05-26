@@ -18,3 +18,9 @@ lostNumbers = [4, 8, 15, 16, 23, 42]
 
 nums = [1, 2, 3] ++ [4, 5, 6]
 -- [1, 2, 3, 4, 5, 6]
+
+smallCat = 'A' : " Small Cat"
+-- "A Small Cat"
+
+oneTofive = 5 : [1, 2, 3, 4, 5]
+-- [5, 1, 2, 3, 4, 5]
