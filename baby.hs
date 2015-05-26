@@ -19,6 +19,9 @@ lostNumbers = [4, 8, 15, 16, 23, 42]
 nums = [1, 2, 3] ++ [4, 5, 6]
 -- [1, 2, 3, 4, 5, 6]
 
+nums' = [1, 2, 3, 4] ++ [5] -- Left and Right of "++" must be a list
+
+
 smallCat = 'A' : " Small Cat"
 -- "A Small Cat"
 
